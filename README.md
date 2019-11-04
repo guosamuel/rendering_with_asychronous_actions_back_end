@@ -15,9 +15,9 @@ Built with [Ruby on Rails](https://rubyonrails.org/)
 3. When the `bundle install` command completes, run the following command: `rails db:migrate`
 
 ## How To Use
-To run the back-end, run the following command: `rails s -p 4000`
+To run the back-end, run the following command: `rails s -p 4001`
 
-***Note:*** For the back-end, the port needs to be assigned to port 4000 because port 4000 is the default port the front-end will refer to.
+***Note:*** For the back-end, the port needs to be assigned to port 4001 because port 4001 is the default port the front-end will refer to.
 
 ## Front-End Installation
 After successfully installing the back-end, please refer to the [Rendering with Asynchronous Actions Front End repository](https://github.com/guosamuel/rendering_with_asychronous_actions_front_end) for instructions on how to install the front-end as well as using the application.
