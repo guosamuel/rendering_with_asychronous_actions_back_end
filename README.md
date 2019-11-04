@@ -1,24 +1,23 @@
-# README
+Rendering with Asynchronous Actions
+========================
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the back-end portion of this blog example.
 
-Things you may want to cover:
+## Description
+Rendering with Asynchronous Actions is a code example for Samuel Guo's [blog](https://medium.com/@guosamuel1114). This is specific to the blog titled _Rendering with Asynchonous Actions_. This is the back-end portion of the example for the sole purpose of demonstrating potential bugs where rendering is dependent on data from the results asynchronous actions.
 
-* Ruby version
+## Framework
+Built with [Ruby on Rails](https://rubyonrails.org/)
 
-* System dependencies
+## Installation
+1. Fork and clone this repository into your local computer.
+2. Navigate to the directory where it was cloned and run the following command: `bundle install`
+3. When the `bundle install` command completes, run the following command: `rails db:migrate`
 
-* Configuration
+## How To Use
+To run the back-end, run the following command: `rails s -p 4000`
 
-* Database creation
+***Note:*** For the back-end, the port needs to be assigned to port 4000 because port 4000 is the default port the front-end will refer to.
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Front-End Installation
+After successfully installing the back-end, please refer to the [Rendering with Asynchronous Actions Front End repository](https://github.com/guosamuel/rendering_with_asychronous_actions_front_end) for instructions on how to install the front-end as well as using the application.
