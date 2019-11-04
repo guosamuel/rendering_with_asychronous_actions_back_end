@@ -1,7 +1,7 @@
 Rendering with Asynchronous Actions
 ========================
 
-This is the back-end portion of this blog example.
+This is the back-end portion of the _Rendering with Asynchronous Actions_ blog example.
 
 ## Description
 Rendering with Asynchronous Actions is a code example for Samuel Guo's [blog](https://medium.com/@guosamuel1114). This is specific to the blog titled _Rendering with Asynchonous Actions_. This is the back-end portion of the example for the sole purpose of demonstrating potential bugs where rendering is dependent on data from the results asynchronous actions.
